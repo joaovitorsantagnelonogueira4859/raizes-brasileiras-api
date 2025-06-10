@@ -1,0 +1,27 @@
+{
+  "name": "raizes-brasileiras-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovitorsantagnelonogueira4859/raizes-brasileiras-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaovitorsantagnelonogueira4859/raizes-brasileiras-api/issues"
+  },
+  "homepage": "https://github.com/joaovitorsantagnelonogueira4859/raizes-brasileiras-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
