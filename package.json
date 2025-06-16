@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/joaovitorsantagnelonogueira4859/raizes-brasileiras-api#readme",
   "dependencies": {
+    "crypto-js": "^4.2.0",
     "express": "^5.1.0",
-    "reflect-metadata": "^0.2.2"
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.24"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
