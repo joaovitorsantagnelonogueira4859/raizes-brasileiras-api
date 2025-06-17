@@ -10,5 +10,12 @@ module.exports = new EntitySchema({
     password: { type: "varchar" },
     createdAt: { type: "datetime", createDate: true },
     updatedAt: { type: "datetime", updateDate: true },
+  },
+  relations: {
+    podcasts: {
+      target: "Reports",
+      type: "one-to-many",
+      inverseSide: "createdBy",
+    },
   }
 });

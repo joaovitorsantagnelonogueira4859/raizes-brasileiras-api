@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api', routes)
 
 AppDataSource.initialize()
-  .then(() => console.log("📦 Database ready!"))
-  .catch((err) => console.error(err));
+    .then(() => console.log("📦 Database ready!"))
+    .catch((err) => console.error(err));
 
 module.exports = app;
