@@ -4,9 +4,8 @@ module.exports = new EntitySchema({
     name: "Reports",
     tableName: "reports",
     columns: {
-        character: { type: "" },
+        character: { type: "varchar" },
         title: { type: "varchar" },
-        image: { type: "blob", createImageBitmap: true },
         description: { type: "varchar" },
     },
     relations: {
