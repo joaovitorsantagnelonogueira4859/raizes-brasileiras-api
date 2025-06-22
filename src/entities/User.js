@@ -12,7 +12,7 @@ module.exports = new EntitySchema({
     updatedAt: { type: "datetime", updateDate: true },
   },
   relations: {
-    podcasts: {
+    reports: {
       target: "Reports",
       type: "one-to-many",
       inverseSide: "createdBy",
